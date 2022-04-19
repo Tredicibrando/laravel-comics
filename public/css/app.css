@@ -89,7 +89,7 @@ body {
   border: 0px solid transparent;
   font-size: 14px;
   color: black;
-  border-bottom: 2px solid #0C7CEC;
+  border-bottom: 2px solid;
 }
 
 .jumbotron {
@@ -149,6 +149,190 @@ body {
   font-size: 13px;
   font-weight: 200;
   align-self: flex-start;
-  white-space: nowrap;
+  white-space: wrap;
+}
+
+.main .container .card-wrapper .load__wrapper {
+  padding-top: 25px;
+}
+
+.main .container .card-wrapper .load__wrapper .load {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0C7CEC;
+  padding: 10px 30px;
+  border: none;
+  font-weight: 700;
+}
+
+.cta {
+  width: 100%;
+  background-color: #0C7CEC;
+}
+
+.cta .container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.cta .container .cta__wrapper {
+  padding: 40px 0;
+}
+
+.cta .container .cta__wrapper .cta__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 30px;
+}
+
+.cta .container .cta__wrapper .cta__list .cta__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta .container .cta__wrapper .cta__list .cta__item figure {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.cta .container .cta__wrapper .cta__list .cta__item figure img {
+  height: 45px;
+}
+
+.cta .container .cta__wrapper .cta__list .cta__item .cta__text {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer {
+  position: relative;
+  background-image: url(/img/footer-bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer .container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer .container .footer__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.footer .container .footer__wrapper .footer__list {
+  padding: 40px 0;
+  flex-grow: 1;
+  display: flex;
+  gap: 30px;
+}
+
+.footer .container .footer__wrapper .footer__list .list_wrapper {
+  padding: 0 10px;
+}
+
+.footer .container .footer__wrapper .footer__list .list_wrapper .footer__list__wrapper {
+  list-style: none;
+  color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.footer .container .footer__wrapper .footer__list .list_wrapper .footer__list__wrapper .footer__title {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.footer .container .footer__wrapper .footer__list .list_wrapper .footer__list__wrapper .footer__list__item {
+  color: #959595;
+}
+
+.footer .container .footer__wrapper .footer__list .list_wrapper .footer__list__wrapper .footer__list__item a {
+  text-decoration: none;
+  color: currentColor;
+  font-size: 14px;
+}
+
+.footer .container .footer__wrapper .footer__bg__img {
+  flex-grow: 1;
+  background-image: url(/img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center right;
+}
+
+.social {
+  background-color: #303030;
+  width: 100%;
+}
+
+.social .container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.social .container .social__wrapper {
+  display: flex;
+  align-content: center;
+}
+
+.social .container .social__wrapper .social__button {
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+.social .container .social__wrapper .social__button .signup__button {
+  padding: 8px 15px;
+  background-color: transparent;
+  border: 2px solid #0C7CEC;
+  color: white;
+  line-height: 22px;
+}
+
+.social .container .social__wrapper .social__cta {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.social .container .social__wrapper .social__cta .social__text {
+  color: #0C7CEC;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-right: 15px;
+}
+
+.social .container .social__wrapper .social__cta .social__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.social .container .social__wrapper .social__cta .social__list .social__list__item {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.social .container .social__wrapper .social__cta .social__list .social__list__item img {
+  width: 30px;
+  display: block;
 }
 
