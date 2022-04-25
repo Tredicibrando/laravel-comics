@@ -134,6 +134,7 @@ body{
                 justify-content: space-between;
                 align-items: center;
                 flex-wrap: wrap;
+                text-decoration: none;
         
                 .thumb_wrapper{
                     width: 250px;
@@ -356,4 +357,11 @@ body{
         }
     }
 
+}
+
+//SHOW
+
+.container-show{
+    width: 1240px;
+    margin: 0 auto;
 }

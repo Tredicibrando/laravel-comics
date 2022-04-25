@@ -4,14 +4,14 @@
     <main class="main">
         <div class="container">
             <div class="card-wrapper">
-                @foreach ($comics as $comic)
-                <div class="card">
+                @foreach ($comics as $index => $comic)
+                <a class="card" href="{{ route('show', ['id' => $index]) }}">
                     <figure class="thumb_wrapper">
                         <img src="{{$comic['thumb']}}" alt="">
                     </figure>
         
                     <h4 class="text">{{$comic['title']}}</h4>
-                </div>
+                </a>
                 @endforeach
                 <div class="load__wrapper">
                     <input class="load" type="button" value="Load More">
@@ -30,7 +30,6 @@
                             <h4 class="cta__text">{{$item['text']}}</h4>
                         </li>
                         @endforeach
-                        
                     </ul>
                 </div>
             </div>

@@ -125,6 +125,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .main .container .card-wrapper .card .thumb_wrapper {
@@ -334,5 +335,10 @@ body {
 .social .container .social__wrapper .social__cta .social__list .social__list__item img {
   width: 30px;
   display: block;
+}
+
+.container-show {
+  width: 1240px;
+  margin: 0 auto;
 }
 
